@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #a5a5a6;
+  color: black;
+  line-height: 1.4;
+}
+
+header {
+  color: black;
+  background-color: rgb(10, 0, 140);
+  padding: 3%;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+main {
+  max-width: 100%;
+  width: 90%;
+  margin: 25px auto;
+}
+
+h1 {
+  color: rgb(10, 0, 140);
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(10, 0, 140);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0%;
+  margin: 0;
+  gap: 10%;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(10, 0, 140);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: rgb(47, 0, 255);
+}
+
+section {
+  background-color: #a5a5a6;
+}
+
+button:hover {
+  background-color: rgb(47, 0, 255);
+}
+
+button {
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-width: 500px;
+}
+
+input,
+select,
+textarea {
+  padding: 5px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: black;
+  background-color: rgb(10, 0, 140);
+}
+
+article {
+  font-size: 14px;
+}
+
+article div {
+  display: flex;
+  gap: 20px;
+}
+
+.photo {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.sekcja-filmy {
+  display: block;
+  text-align: center;
+}
