@@ -1,7 +1,3 @@
-setTimeout(() => {
-  console.log("Test JS");
-}, 4000);
-
 const form = document.getElementById("trainingForm");
 
 if (form) {
