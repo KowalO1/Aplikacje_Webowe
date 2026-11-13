@@ -2,50 +2,12 @@
 <html lang="pl">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css" />
+    <meta http-equiv="refresh" content="0; url=./Project_1/" />
+    <title>Redirecting...</title>
   </head>
   <body>
-    <main class="main-container">
-      <h1>Welcome to My Website</h1>
-    </main>
-    <script src="index.js">
-
-      function equation(a, b) {
-          return a + b
-      }
-
-      function equationWithExtra1(a, b) {
-          a+= 1
-          b+= 1
-          return op(a, b)
-      }
-      const w3 = equationWithExtra1(2, 2, equation)
-      console.log(w3)
-
-      const w4 = equationWithExtra1(2, 2, (a, b) => {
-          return a * b
-      })
-
-      const bt = document.getElementById("bt")
-      const parent = document.getElementById("parent")
-
-      bt.addEventListener("click", (e) => {
-        const newChild = document.createElement("div")
-        let counter = 0
-        newChild.innerHTML = counter
-        newChild.classList = "klasa2"
-
-        newChild.addEventListener("click", (ev) => {
-          counter += 1
-          newChild.innerHTML = counter
-        })
-
-        parent.appendChild(newChild)
-      })
-
-      console.log(w4)
-    </script>
+    <p>
+      Przekierowywanie do projektu... <a href="./Project_1/">Kliknij tutaj</a>.
+    </p>
   </body>
 </html>
